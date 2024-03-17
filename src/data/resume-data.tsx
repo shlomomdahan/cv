@@ -93,17 +93,36 @@ export const RESUME_DATA = {
     "MongoDB",
     "NS3",
     "Postman",
-    
   ],
   projects: [
     {
       title: "Shlomodahan.com",
-      techStack: ["Side Project", "React", "Next.js", "TypeScript", "Framer Motion"],
-      description:
-        "My personal website. Built with React and Next.js", 
+      techStack: [
+        "Side Project",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Framer Motion",
+      ],
+      description: "My personal website. Built with React and Next.js",
       link: {
         label: "github.com",
         href: "https://shlomodahan.com/",
+      },
+    },
+    {
+      title: "Pathfinding Visualizer",
+      techStack: [
+        "Side Project",
+        "React",
+        "Javascript",
+        "Algorithms",
+        "Data Structures",
+      ],
+      description: "Pathfinding visualizer built with React.",
+      link: {
+        label: "github.com",
+        href: "https://pathfinding-visualizer-phi.vercel.app/",
       },
     },
   ],
