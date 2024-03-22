@@ -125,5 +125,64 @@ export const RESUME_DATA = {
         href: "https://pathfinding-visualizer-phi.vercel.app/",
       },
     },
+    {
+      title: "Sorting Visualizer",
+      techStack: [
+        "Side Project",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Algorithms",
+        "Data Structures",
+      ],
+      description: "Sorting visualizer built with React and Next.js.",
+      link: {
+        label: "github.com",
+        href: "https://sorting-visualizer-sigma-eight.vercel.app/",
+      },
+    },
+    {
+      title: "VeriCreds",
+      techStack: [
+        "Hackathon Project",
+        "React",
+        "Next.js",
+        "Redux",
+        "Axios",
+        "Python",
+        "Flask",
+        "MongoDB",
+      ],
+      description: "PoC web3 document sharing app created for UPenn Hackathon.",
+      link: {
+        label: "devpost.com",
+        href: "https://devpost.com/software/vericreds",
+      },
+    },
+    {
+      title: "Advanced Network Sim",
+      techStack: [
+        "Academic Project",
+        "C++",
+        "NS3",
+        "Networking Algorithms",
+        "Simulation",
+      ],
+      description: "Built peer-to-peer search engine ",
+      link: {
+        label: "Not Available",
+        href: "",
+      },
+    },
+    {
+      title: "3D World Editor",
+      techStack: ["Open Source Project", "C++", "IMGUI", "SFML", "3D Graphics"],
+      description:
+        "Refactored a JavaScript based 3D interactive world editor to C++ and SFML.",
+      link: {
+        label: "github.com",
+        href: "",
+      },
+    },
   ],
 } as const;
